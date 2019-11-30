@@ -1,0 +1,535 @@
+TY  - CONF
+N1  - Compilation and indexing terms, Copyright 2019 Elsevier Inc.
+TI  - Recursive similarity-based algorithm for deep learning
+BT  - 19th International Conference on Neural Information Processing, ICONIP 2012, November 12, 2012  -  November 15, 2012
+T3  - Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)
+A1  - Maszczyk, Tomasz
+A1  - Duch, Wlodzislaw
+AD  - Department of Informatics, Nicolaus Copernicus University, Grudziadzka 5, Torun 87-100, PolandSchool of Computer Engineering, Nanyang Technological University, Singapore
+VL  - 7665 LNCS
+IS  - PART 3
+PY  - 2012
+U1  - 20124715683240
+SP  - 390
+EP  - 397
+SN  - 03029743
+CY  - Doha, Qatar
+PB  - Springer Verlag
+N2  - Recursive Similarity-Based Learning algorithm (RSBL) follows the deep learning idea, exploiting similarity-based methodology to recursively generate new features. Each transformation layer is generated separately, using as inputs information from all previous layers, and as new features similarity to the k nearest neighbors scaled using Gaussian kernels. In the feature space created in this way results of various types of classifiers, including linear discrimination and distance-based methods, are significantly improved. As an illustrative example a few non-trivial benchmark datasets from the UCI Machine Learning Repository are analyzed.  2012 Springer-Verlag.
+KW  - Learning algorithms
+KW  - Artificial intelligence
+KW  - Deep learning
+KW  - Learning systems
+KW  - Motion compensation
+KW  - Nearest neighbor search
+U2  - Benchmark datasets
+U2  - Deep networks
+U2  - Distance-based methods
+U2  - Gaussian kernels
+U2  - K-nearest neighbors
+U2  - Linear discrimination
+U2  - similarity-based learning
+U2  - UCI machine learning repository
+DO  - 10.1007/978-3-642-34487-9_48
+L2  - http://dx.doi.org/10.1007/978-3-642-34487-9_48
+ER  - 
+
+
+TY  - JOUR
+N1  - Compilation and indexing terms, Copyright 2019 Elsevier Inc.
+TI  - An Introduction to Neural Networks and Deep Learning
+T3  - Deep Learning for Medical Image Analysis
+A1  - Suk, Heung-Il
+AD  - Korea University, Seoul, Korea, Republic of
+PY  - 2017
+U1  - 20182705511403
+SP  - 3
+EP  - 24
+PB  - Elsevier Inc.
+N2  - Artificial neural networks, conceptually and structurally inspired by neural systems, are of great interest along with deep learning, thanks to their great successes in various fields including medical imaging analysis. In this chapter, we describe the fundamental concepts and ideas of (deep) neural networks and explain algorithmic advances to learn network parameters efficiently by avoiding overfitting. Specifically, this chapter focuses on introducing (i) feed-forward neural networks, (ii) gradient descent-based parameter optimization algorithms, (iii) different types of deep models, (iv) technical tricks for fast and robust training of deep models, and (v) open source deep learning frameworks for quick practice.  2017 Elsevier Inc. All rights reserved.
+KW  - Deep neural networks
+KW  - Deep learning
+KW  - Medical imaging
+KW  - Neural networks
+U2  - Convolutional neural network
+U2  - Deep belief networks
+U2  - Deep boltzmann machines
+U2  - Fundamental concepts
+U2  - Learning frameworks
+U2  - Network parameters
+U2  - Parameter optimization
+U2  - Robust trainings
+DO  - 10.1016/B978-0-12-810408-8.00002-X
+L2  - http://dx.doi.org/10.1016/B978-0-12-810408-8.00002-X
+ER  - 
+
+
+TY  - CONF
+N1  - Compilation and indexing terms, Copyright 2019 Elsevier Inc.
+TI  - Cardiac arrhythmia detection using deep learning
+BT  - 9th International Conference on Theory and Application of Soft Computing, Computing with Words and Perception, ICSCCW 2017, August 22, 2017  -  August 23, 2017
+T3  - Procedia Computer Science
+A1  - Isin, Ali
+A1  - Ozdalili, Selen
+AD  - Department of Biomedical Engineering, Near East University, P.O.BOX:99138, Mersin 10, Nicosia, CyprusDepartment of Innovation and Knowledge Management, Near East University, P.O.BOX:99138, Mersin 10, Nicosia, Cyprus
+VL  - 120
+PY  - 2017
+U1  - 20180204641383
+SP  - 268
+EP  - 275
+SN  - 18770509
+CY  - Budapest, Hungary
+PB  - Elsevier B.V.
+N2  - An electrocardiogram (ECG) is an important diagnostic tool for the assessment of cardiac arrhythmias in clinical routine. In this study, a deep learning framework previously trained on a general image data set is transferred to carry out automatic ECG arrhythmia diagnostics by classifying patient ECG's into corresponding cardiac conditions. Transferred deep convolutional neural network (namely AlexNet) is used as a feature extractor and the extracted features are fed into a simple back propagation neural network to carry out the final classification. Three different conditions of ECG waveform are selected from MIT-BIH arrhythmia database to evaluate the proposed framework. Main focus of this study is to implement a simple, reliable and easily applicable deep learning technique for the classification of the selected three different cardiac conditions. Obtained results demonstrated that the transferred deep learning feature extractor cascaded with a conventional back propagation neural network were able to obtain very high performance rates. Highest obtained correct recognition rate is 98.51% while obtaining testing accuracy around 92%. Based on these results, transferred deep learning proved to be an efficient automatic cardiac arrhythmia detection method while eliminating the burden of training a deep convolutional neural network from scratch providing an easily applicable technique.  2018 The Authors. Published by Elsevier B.V.
+KW  - Deep neural networks
+KW  - Backpropagation
+KW  - Biomedical signal processing
+KW  - Classification (of information)
+KW  - Computation theory
+KW  - Convolution
+KW  - Deep learning
+KW  - Diseases
+KW  - Electrocardiography
+KW  - Heart
+KW  - Neural networks
+KW  - Signal processing
+KW  - Soft computing
+KW  - Torsional stress
+U2  - Back propagation neural networks
+U2  - Cardiac arrhythmia
+U2  - Convolutional neural network
+U2  - Deep convolutional neural networks
+U2  - Ecg classifications
+U2  - Learning frameworks
+U2  - Learning techniques
+U2  - tranfer learning
+DO  - 10.1016/j.procs.2017.11.238
+L2  - http://dx.doi.org/10.1016/j.procs.2017.11.238
+ER  - 
+
+
+TY  - CONF
+N1  - Compilation and indexing terms, Copyright 2019 Elsevier Inc.
+TI  - Realizing real-time deep learning-based super-resolution applications on integrated GPUs
+BT  - 15th IEEE International Conference on Machine Learning and Applications, ICMLA 2016, December 18, 2016  -  December 20, 2016
+T3  - Proceedings - 2016 15th IEEE International Conference on Machine Learning and Applications, ICMLA 2016
+A1  - Kim, Sungye
+A1  - Bindu, Preeti
+AD  - Visual and Parallel Computing, Group Intel Corporation, United States
+PY  - 2016
+U1  - 20171203470784
+SP  - 693
+EP  - 696
+CY  - Anaheim, CA, United states
+PB  - Institute of Electrical and Electronics Engineers Inc.
+N2  - With recent advances in deep convolutional neural networks (CNN), deep learning has brought significant quality improvement and flexibility on single image super resolution (SR). In this paper, we describe how CNN based SR can be accelerated on integrated GPUs. To this end, we employ a CNN model from an existing single image SR approach, and develop the model within a well-known deep learning framework with OpenCLsupport We also introduce a multi-tile approach in which we divide a large input into smaller tiles to generate SR for better utilization of memory bandwidth and to overcome size constraints posed by certain frameworks and devices thereby improving performance. This contributes to extending single image SR to video SR as well where video frames are considered as a group of multiple tiles. We prove that our approach is useful to resolve memory issues in generating ultrahigh SR and to speed-up CNN based SR up to 44fps to generate various sizes of SR without quality impact.  2016 IEEE.
+KW  - Deep neural networks
+KW  - Deep learning
+KW  - Image enhancement
+KW  - Neural networks
+KW  - Optical resolving power
+KW  - Program processors
+U2  - Deep convolutional neural networks
+U2  - Improving performance
+U2  - Integrated GPUs
+U2  - Learning frameworks
+U2  - Learning-based super-resolution
+U2  - Memory bandwidths
+U2  - Quality improvement
+U2  - Super resolution
+DO  - 10.1109/ICMLA.2016.143
+L2  - http://dx.doi.org/10.1109/ICMLA.2016.143
+ER  - 
+
+
+TY  - CONF
+N1  - Compilation and indexing terms, Copyright 2019 Elsevier Inc.
+TI  - Progressive review towards deep learning techniques
+BT  - 1st International Conference on Data Engineering and Communication Technology, ICDECT 2016, March 10, 2016  -  March 11, 2016
+T3  - Advances in Intelligent Systems and Computing
+A1  - Chaudhari, Poonam
+A1  - Agarwal, Himanshu
+AD  - Symbiosis Institute of Technology, Pune, India
+VL  - 468
+PY  - 2017
+U1  - 20163602777519
+SP  - 151
+EP  - 158
+SN  - 21945357
+CY  - Lavasa City, Pune, India
+PB  - Springer Verlag
+N2  - Deep learning is a thing of tomorrow which is causing a complete drift from shallow architecture to deep architecture and an estimate shows that by 2017 about 10% of computers will be learning rather than processing. Deep learning has fast growing effects in the area of pattern recognition, computer vision, speech recognition, feature extraction, language processing, bioinformatics, and statistical classification. To make a system learn, deep learning makes use of a wide horizon of machine learning algorithms. Gene expression data is uncertain and imprecise. In this paper, we discuss supervised and unsupervised algorithms applied to gene expression dataset. There are intermediate algorithms classified as semi-supervised and self taught which also play an important role to improve the prediction accuracy in diagnosis of cancer. We discuss deep learning algorithms which provide better analysis of hidden patterns in the dataset, thus improving the prediction accuracy.  Springer Science+Business Media Singapore 2017.
+KW  - Learning algorithms
+KW  - Computer aided diagnosis
+KW  - Deep learning
+KW  - Gene expression
+KW  - Speech recognition
+U2  - Deep architectures
+U2  - Gene Expression Data
+U2  - Language processing
+U2  - Learning techniques
+U2  - Prediction accuracy
+U2  - Semi-supervised
+U2  - Statistical classification
+U2  - Unsupervised algorithms
+DO  - 10.1007/978-981-10-1675-2_17
+L2  - http://dx.doi.org/10.1007/978-981-10-1675-2_17
+ER  - 
+
+
+TY  - CONF
+N1  - Compilation and indexing terms, Copyright 2019 Elsevier Inc.
+TI  - Deep Learning vs. Traditional Computer Vision
+BT  - Computer Vision Conference, CVC 2019, April 25, 2019  -  April 26, 2019
+T3  - Advances in Intelligent Systems and Computing
+A1  - OMahony, Niall
+A1  - Campbell, Sean
+A1  - Carvalho, Anderson
+A1  - Harapanahalli, Suman
+A1  - Hernandez, Gustavo Velasco
+A1  - Krpalkova, Lenka
+A1  - Riordan, Daniel
+A1  - Walsh, Joseph
+AD  - IMaR Technology Gateway, Institute of Technology Tralee, Tralee, Ireland
+VL  - 943
+PY  - 2020
+U1  - 20192006920852
+SP  - 128
+EP  - 144
+SN  - 21945357
+CY  - Las Vegas, NV, United states
+PB  - Springer Verlag
+N2  - Deep Learning has pushed the limits of what was possible in the domain of Digital Image Processing. However, that is not to say that the traditional computer vision techniques which had been undergoing progressive development in years prior to the rise of DL have become obsolete. This paper will analyse the benefits and drawbacks of each approach. The aim of this paper is to promote a discussion on whether knowledge of classical computer vision techniques should be maintained. The paper will also explore how the two sides of computer vision can be combined. Several recent hybrid methodologies are reviewed which have demonstrated the ability to improve computer vision performance and to tackle problems not suited to Deep Learning. For example, combining traditional computer vision techniques with Deep Learning has been popular in emerging domains such as Panoramic Vision and 3D vision for which Deep Learning models have not yet been fully optimised.  2020, Springer Nature Switzerland AG.
+KW  - Computer vision
+KW  - Deep learning
+U2  - 3-D vision
+U2  - Computer vision techniques
+U2  - Emerging domains
+U2  - Hybrid methodologies
+U2  - Hybrid techniques
+U2  - Learning models
+U2  - Panoramic vision
+U2  - Traditional computers
+DO  - 10.1007/978-3-030-17795-9_10
+L2  - http://dx.doi.org/10.1007/978-3-030-17795-9_10
+ER  - 
+
+
+TY  - JOUR
+N1  - Compilation and indexing terms, Copyright 2019 Elsevier Inc.
+TI  - A tutorial survey of architectures, algorithms, and applications for deep learning
+JO  - APSIPA Transactions on Signal and Information Processing
+A1  - Deng, Li
+AD  - Microsoft Research, Redmond; WA; 98052, United States
+VL  - 3
+PY  - 2014
+U1  - 20180204624496
+SN  - 20487703
+PB  - Cambridge University Press
+N2  - In this invited paper, my overview material on the same topic as presented in the plenary overview session of APSIPA-2011 and the tutorial material presented in the same conference [1] are expanded and updated to include more recent developments in deep learning. The previous and the updated materials cover both theory and applications, and analyze its future directions. The goal of this tutorial survey is to introduce the emerging area of deep learning or hierarchical learning to the APSIPA community. Deep learning refers to a class of machine learning techniques, developed largely since 2006, where many stages of non-linear information processing in hierarchical architectures are exploited for pattern classification and for feature learning. In the more recent literature, it is also connected to representation learning, which involves a hierarchy of features or concepts where higher-level concepts are defined from lower-level ones and where the same lower-level concepts help to define higher-level ones. In this tutorial survey, a brief history of deep learning research is discussed first. Then, a classificatory scheme is developed to analyze and summarize major work reported in the recent deep learning literature. Using this scheme, I provide a taxonomy-oriented survey on the existing deep architectures and algorithms in the literature, and categorize them into three classes: generative, discriminative, and hybrid. Three representative deep architectures-deep autoencoders, deep stacking networks with their generalization to the temporal domain (recurrent networks), and deep neural networks (pretrained with deep belief networks)-one in each of the three classes, are presented in more detail. Next, selected applications of deep learning are reviewed in broad areas of signal and information processing including audio/speech, image/vision, multimodality, language modeling, natural language processing, and information retrieval. Finally, future directions of deep learning are discussed and analyzed.  2014 The Authors.
+KW  - Learning algorithms
+KW  - Algorithms
+KW  - Audio signal processing
+KW  - Classification (of information)
+KW  - Data processing
+KW  - Deep learning
+KW  - Deep neural networks
+KW  - Modeling languages
+KW  - Natural language processing systems
+KW  - Network architecture
+KW  - Recurrent neural networks
+KW  - Surveys
+U2  - Deep architectures
+U2  - Deep belief networks
+U2  - Feature learning
+U2  - Hierarchical architectures
+U2  - Hierarchical learning
+U2  - Machine learning techniques
+U2  - Recurrent networks
+U2  - Signal and information processing
+DO  - 10.1017/atsip.2013.9
+L2  - http://dx.doi.org/10.1017/atsip.2013.9
+ER  - 
+
+
+TY  - JOUR
+N1  - Compilation and indexing terms, Copyright 2019 Elsevier Inc.
+TI  - A tutorial survey of architectures, algorithms, and applications for deep learning
+JO  - APSIPA Transactions on Signal and Information Processing
+A1  - Deng, Li
+AD  - Microsoft Research, Redmond, WA 98052, United States
+VL  - 3
+PY  - 2014
+U1  - 20180204624561
+SN  - 20487703
+PB  - Cambridge University Press
+N2  - In this invited paper, my overview material on the same topic as presented in the plenary overview session of APSIPA-2011 and the tutorial material presented in the same conference [1] are expanded and updated to include more recent developments in deep learning. The previous and the updatedmaterials cover both theory and applications, and analyze its future directions. The goal of this tutorial survey is to introduce the emerging area of deep learning or hierarchical learning to the APSIPA community. Deep learning refers to a class of machine learning techniques, developed largely since 2006, where many stages of non-linear information processing in hierarchical architectures are exploited for pattern classification and for feature learning. In the more recent literature, it is also connected to representation learning, which involves a hierarchy of features or concepts where higherlevel concepts are defined from lower-level ones and where the same lower-level concepts help to define higher-level ones. In this tutorial survey, a brief history of deep learning research is discussed first. Then, a classificatory scheme is developed to analyze and summarize major work reported in the recent deep learning literature. Using this scheme, I provide a taxonomy-oriented survey on the existing deep architectures and algorithms in the literature, and categorize them into three classes: generative, discriminative, and hybrid. Three representative deep architectures - deep autoencoders, deep stacking networks with their generalization to the temporal domain (recurrent networks), and deep neural networks (pretrained with deep belief networks) - one in each of the three classes, are presented in more detail. Next, selected applications of deep learning are reviewed in broad areas of signal and information processing including audio/speech, image/vision, multimodality, language modeling, natural language processing, and information retrieval. Finally, future directions of deep learning are discussed and analyzed.  The Authors, 2014.
+KW  - Learning algorithms
+KW  - Algorithms
+KW  - Audio signal processing
+KW  - Classification (of information)
+KW  - Data processing
+KW  - Deep learning
+KW  - Deep neural networks
+KW  - Modeling languages
+KW  - Natural language processing systems
+KW  - Network architecture
+KW  - Recurrent neural networks
+KW  - Surveys
+U2  - Deep architectures
+U2  - Deep belief networks
+U2  - Feature learning
+U2  - Hierarchical architectures
+U2  - Hierarchical learning
+U2  - Machine learning techniques
+U2  - Recurrent networks
+U2  - Signal and information processing
+DO  - 10.1017/ATSIP.2013.99
+L2  - http://dx.doi.org/10.1017/ATSIP.2013.99
+ER  - 
+
+
+TY  - JOUR
+N1  - Compilation and indexing terms, Copyright 2019 Elsevier Inc.
+TI  - A deep learning based feature extraction method on hyperspectral images for nondestructive prediction of TVB-N content in Pacific white shrimp (Litopenaeus vannamei)
+JO  - Biosystems Engineering
+A1  - Yu, Xinjie
+A1  - Wang, Jianping
+A1  - Wen, Shiting
+A1  - Yang, Jinqiu
+A1  - Zhang, Fengfeng
+AD  - Ningbo Institute of Technology, Zhejiang University, Ningbo; 315100, ChinaNingbo Marine and Fishery Research Institute, Ningbo; 315048, ChinaNingbo Agricultural Machinery Technology Extension Center, Ningbo; 315051, China
+VL  - 178
+PY  - 2019
+U1  - 20185106279566
+SP  - 244
+EP  - 255
+SN  - 15375110
+PB  - Academic Press
+N2  - Hyperspectral imaging (HSI) technique with spectral range of 9001700 nm was implemented to predict total volatile basic nitrogen (TVB-N) content in Pacific white shrimp. Successive projections algorithm (SPA) and deep-learning-based stacked auto-encoders (SAEs) algorithm were comparatively used for spectral feature extraction. Least-squares support vector machine (LS-SVM), partial least squares regression (PLSR) and multiple linear regression (MLR) were used for prediction. The results demonstrated that the SAEs-based prediction models (SAEs-LS-SVM, SAEs-MLR and SAEs-PLSR) performed better than either full wavelengths-based or SPA-based prediction models. The SAEs-LS-SVM was considered to be the best model with RP2 value of 0.921, RMSEP value of 6.22 mg N [100 g]1, RPD value of 3.58 and computational time of 3.9 ms for predicting TVB-N in prediction set. The results of this study indicated that SAEs has a high potential in the multivariate analysis of hyperspectral images for shrimp quality inspections.  2018 IAgrE
+KW  - Deep learning
+KW  - Extraction
+KW  - Feature extraction
+KW  - Forecasting
+KW  - Hyperspectral imaging
+KW  - Least squares approximations
+KW  - Linear regression
+KW  - Multivariant analysis
+KW  - Shellfish
+KW  - Signal encoding
+KW  - Spectroscopy
+KW  - Support vector machines
+U2  - Auto encoders
+U2  - Learning-based feature extractions
+U2  - Least squares support vector machines
+U2  - Non-destructive prediction
+U2  - Partial least squares regressions (PLSR)
+U2  - Successive projections algorithms (SPA)
+U2  - Total volatile basic nitrogens
+U2  - White shrimps
+DO  - 10.1016/j.biosystemseng.2018.11.018
+L2  - http://dx.doi.org/10.1016/j.biosystemseng.2018.11.018
+ER  - 
+
+
+TY  - JOUR
+N1  - Compilation and indexing terms, Copyright 2019 Elsevier Inc.
+TI  - Deep embedding learning with adaptive large margin N-pair loss for image retrieval and clustering
+JO  - Pattern Recognition
+A1  - Chen, Binghui
+A1  - Deng, Weihong
+AD  - School of Information and Communication Engineering, Beijing University of Posts and Telecommunications, Beijing; 100876, China
+VL  - 93
+PY  - 2019
+U1  - 20191906899786
+SP  - 353
+EP  - 364
+SN  - 00313203
+PB  - Elsevier Ltd
+N2  - Deep embedding learning becomes more attractive for discriminative feature learning, but many methods still require hard-class mining, which is computationally complex and performance-sensitive. To this end, Adaptive Large Margin N-Pair loss (ALMN) is proposed to address the aforementioned issues. First, the class center is adopted as the anchor point to avoid the difficulty on anchor selection. Then instead of exploring hard example-mining strategy, we introduce the adaptive large margin constraint, where a novel geometrical Virtual Point Generating (VPG) method is proposed to convert a fixed margin into a local-adaptive angular margin, by automatically generating a boundary training sample in feature space. The effectiveness of our method is demonstrated on fine-grained image retrieval and clustering tasks using six popular databases, including CUB, CARS, Flowers, Aircraft, Stanford Online Products and In-Shop Clothes. The results show that the proposed method achieves better performance than other state-of-the-art methods, such as N-Pair loss, Lifted loss and Triplet loss.  2019 Elsevier Ltd
+KW  - Deep learning
+KW  - Embeddings
+KW  - Image retrieval
+KW  - Training aircraft
+U2  - Adaptive margin
+U2  - Anchor selection
+U2  - Discriminative features
+U2  - Embedding learning
+U2  - Online products
+U2  - State-of-the-art methods
+U2  - Training sample
+U2  - Virtual points
+DO  - 10.1016/j.patcog.2019.05.011
+L2  - http://dx.doi.org/10.1016/j.patcog.2019.05.011
+ER  - 
+
+
+TY  - JOUR
+N1  - Compilation and indexing terms, Copyright 2019 Elsevier Inc.
+TI  - A comparative analysis of deep learning approaches for network intrusion detection systems (N-IDSS): Deep learning for N-IDSs
+JO  - International Journal of Digital Crime and Forensics
+A1  - Vinayakumar, R.
+A1  - Soman, K.P.
+A1  - Poornachandran, Prabaharan
+AD  - Center for Computational Engineering and Networking (CEN), Amrita School of Engineering, Amrita Vishwa Vidyapeetham, Coimbatore, IndiaCenter for Cyber Security Systems and Networks, Amrita School of Engineering, Amrita Vishwa Vidyapeetham, Amritapuri, India
+VL  - 11
+IS  - 3
+PY  - 2019
+U1  - 20191906880091
+SP  - 65
+EP  - 89
+SN  - 19416210
+PB  - IGI Global
+N2  - Recently, due to the advance and impressive results of deep learning techniques in the fields of image recognition, natural language processing and speech recognition for various long-standing artificial intelligence (AI) tasks, there has been a great interest in applying towards security tasks too. This article focuses on applying these deep taxonomy techniques to network intrusion detection system (N-IDS) with the aim to enhance the performance in classifying the network connections as either good or bad. To substantiate this to NIDS, this article models network traffic as a time series data, specifically transmission control protocol / internet protocol (TCP/IP) packets in a predefined time-window with a supervised deep learning methods such as recurrent neural network (RNN), identity matrix of initialized values typically termed as identity recurrent neural network (IRNN), long short-term memory (LSTM), clock-work RNN (CWRNN) and gated recurrent unit (GRU), utilizing connection records of KDDCup-99 challenge data set. The main interest is given to evaluate the performance of RNN over newly introduced method such as LSTM and IRNN to alleviate the vanishing and exploding gradient problem in memorizing the long-term dependencies. The efficient network architecture for all deep models is chosen based on comparing the performance of various network topologies and network parameters. The experiments of such chosen efficient configurations of deep models were run up to 1,000 epochs by varying learning-rates between 0.01-05. The observed results of IRNN are relatively close to the performance of LSTM on KDDCup-99 NIDS data set. In addition to KDDCup-99, the effectiveness of deep model architectures are evaluated on refined version of KDDCup-99: NSL-KDD and most recent one, UNSW-NB15 NIDS datasets. Copyright  2019, IGI Global. Copying or distributing in print or electronic forms without written permission of IGI Global is prohibited.
+KW  - Long short-term memory
+KW  - Analog computers
+KW  - Brain
+KW  - Clocks
+KW  - Computer crime
+KW  - Deep learning
+KW  - Image recognition
+KW  - Intrusion detection
+KW  - Memory architecture
+KW  - Natural language processing systems
+KW  - Network architecture
+KW  - Network security
+KW  - Recurrent neural networks
+KW  - Speech recognition
+KW  - Transmission control protocol
+U2  - Gated Recurrent Unit
+U2  - KDDCup-99
+U2  - Long-term dependencies
+U2  - NAtural language processing
+U2  - Network intrusion detection systems
+U2  - NSL-KDD and UNSW-NB15
+U2  - Recurrent neural network (RNN)
+U2  - Transmission control protocol/internet protocols
+DO  - 10.4018/IJDCF.2019070104
+L2  - http://dx.doi.org/10.4018/IJDCF.2019070104
+ER  - 
+
+
+TY  - CONF
+N1  - Compilation and indexing terms, Copyright 2019 Elsevier Inc.
+TI  - Combat mobile malware via N-gram based deep learning
+T1  - Zararli Mobil Yazilimlarin N-gram Tabanli Derin Orenme ile Tespit Edilmesi
+BT  - 26th IEEE Signal Processing and Communications Applications Conference, SIU 2018, May 2, 2018  -  May 5, 2018
+T3  - 26th IEEE Signal Processing and Communications Applications Conference, SIU 2018
+A1  - Dusun, Burak
+A1  - Bulut, Irfan
+A1  - Aygun, R. Can
+A1  - Yavuz, A. Gokhan
+AD  - Bilgisayar Muhendislii, Yildiz Teknik Universitesi, Istanbul, Turkey
+PY  - 2018
+U1  - 20183105644999
+SP  - 1
+EP  - 4
+CY  - Izmir, Turkey
+PB  - Institute of Electrical and Electronics Engineers Inc.
+N2  - Today, mobile devices are beginning to be used in every aspect of life. In addition to being able to perform financial transactions such as banking and shopping, mobile devices can also store personal information such as pictures / videos on these platforms, and important information about the current surroundings of the phone, such as location / sound, can be obtained. Among the mobile platforms, the popularity of the Android operating system and its open source code make it the main target for malware developers. Today's antivirus software is not effective against malicious software that has been tampered with or encountered for the first time while it is effective against pre-existing threats because they are mostly signature-based. New threats need to be detected as quickly as possible, considering new-signatured versions of the same malware can be created quickly and easily with automatic tools. For this reason, researches based on machine learning and deep learning have been conducted in the last years. In this study deep learning methods, which have been tried to be used successfully in all areas of life in recent years, are tested in mobile malware detection. The opcodes of Android applications were grouped in groups of 2 and 3, their features were extracted, weights were optimized using stacked denoising auto encoder and classified by a multi-layered artifical neural network. As a result of the classification, harmful software was detected with an accuracy of 92.04%.  2018 IEEE.
+KW  - Deep learning
+KW  - Android (operating system)
+KW  - Computer crime
+KW  - Malware
+KW  - Network layers
+KW  - Open source software
+KW  - Open systems
+KW  - Signal processing
+KW  - Static analysis
+U2  - Android
+U2  - Android applications
+U2  - Artifical neural networks
+U2  - Cyber security
+U2  - Dalvik opcode
+U2  - Financial transactions
+U2  - N-grams
+U2  - Personal information
+DO  - 10.1109/SIU.2018.8404399
+L2  - http://dx.doi.org/10.1109/SIU.2018.8404399
+ER  - 
+
+
+TY  - JOUR
+N1  - Compilation and indexing terms, Copyright 2019 Elsevier Inc.
+TI  - Deep Learning Modeling for Top-N Recommendation with Interests Exploring
+JO  - IEEE Access
+A1  - Zhou, Wang
+A1  - Li, Jianping
+A1  - Zhang, Malu
+A1  - Wang, Yazhou
+A1  - Shah, Fadia
+AD  - School of Computer Science and Engineering, University of Electronic Science and Technology of China, Chengdu; 610054, ChinaSchool of Optoelectronic Information, University of Electronic Science and Technology of China, Chengdu; 610054, China
+VL  - 6
+PY  - 2018
+U1  - 20183805834904
+SP  - 51440
+EP  - 51455
+SN  - 21693536
+PB  - Institute of Electrical and Electronics Engineers Inc.
+N2  - Recommender systems (RS) currently play a crucial role in information filtering and retrieval, and have been ubiquitously applied in many domains, although suffering from such data sparsity and cold start problems. There are plenty of studies that try to make efforts to improve the performance of RS through different aspects, such as traditional matrix factorization technique and deep learning methods in recent years, however, it's still a challenging issue under research. In this paper, motivated by this, a two-stage deep learning-based model for top-N recommendation with interests exploring (DLMR) is proposed: 1) DLMR explores latent interests for each user, captures factors from reviews and contextual information via convolutional neural network, and performs convolutional matrix factorization to generate the candidates list; 2) In order to enhance the recommendation performance, DLMR further conducts candidates ranking through a three-layer denoising autoencoder, with taking account of heterogeneous side information. The DLMR provides a flexible scheme to leverage the available resources for recommendation, which is able to explore user's latent interests, capture the intricate interactions between users and items, and provide accurate and personalized recommendations. Experimental analysis over real world data sets demonstrates that DLMR could provide high performance top-N recommendation in sparse settings and outperform state-of-the-art recommender approaches significantly.  2013 IEEE.
+KW  - Deep learning
+KW  - Convolution
+KW  - Factorization
+KW  - Information filtering
+KW  - Learning systems
+KW  - Matrix algebra
+KW  - Neural networks
+KW  - Noise abatement
+KW  - Probabilistic logics
+KW  - Recommender systems
+KW  - Search engines
+KW  - Statistics
+KW  - Tools
+U2  - Convolutional neural network
+U2  - Denoising Autoencoder
+U2  - Interest Exploring
+U2  - Latent Dirichlet allocation
+U2  - Resource management
+U2  - top-N Recommendation
+DO  - 10.1109/ACCESS.2018.2869924
+L2  - http://dx.doi.org/10.1109/ACCESS.2018.2869924
+ER  - 
+
+
+TY  - CONF
+N1  - Compilation and indexing terms, Copyright 2019 Elsevier Inc.
+TI  - Decision Tree Ensemble Vs. N.N. Deep Learning: Efficiency Comparison for A Small Image Dataset
+BT  - 2018 International Workshop on Big Data and Information Security, IWBIS 2018, May 12, 2018  -  May 13, 2018
+T3  - 2018 International Workshop on Big Data and Information Security, IWBIS 2018
+A1  - Treboux, Jerome
+A1  - Genoud, Dominique
+A1  - Ingold, Rolf
+AD  - Institute of Information Systems, University of Applied Sciences, HES-SO Valais, Sierre, SwitzerlandDepartment of Informatics, University of Fribourg, Fribourg, Switzerland
+PY  - 2018
+U1  - 20184406011065
+SP  - 25
+EP  - 30
+CY  - Balai Kartini, Jakarta, Indonesia
+PB  - Institute of Electrical and Electronics Engineers Inc.
+N2  - This paper presents a study of the efficiency of machine learning algorithms applied on an image recognition task. The dataset is composed of aerial GeoTIFF images of 5 different vineyards taken with a drone. It presents the application of two different classification algorithms with an efficiency comparison over a small dataset. A Neural Network algorithm for classification through the TensorFlow platform will be explained first, and a Decision Tree Ensemble algorithm for classification through a machine learning platform will be explained second. This work shows that the accuracy of the Decision Tree Ensemble algorithm (94.27%) outperforms the accuracy of the Deep Learning algorithm (91.22%). This result is based on the final detection accuracy as well as on the computation time.  2018 IEEE.
+KW  - Learning algorithms
+KW  - Antennas
+KW  - Artificial intelligence
+KW  - Big data
+KW  - Classification (of information)
+KW  - Data mining
+KW  - Decision trees
+KW  - Deep learning
+KW  - Efficiency
+KW  - Image recognition
+KW  - Security of data
+KW  - Trees (mathematics)
+U2  - Classification algorithm
+U2  - Computation time
+U2  - Detection accuracy
+U2  - Efficiency comparisons
+U2  - Geotiff
+U2  - Image datasets
+U2  - Neural network algorithm
+U2  - Tree ensembles
+DO  - 10.1109/IWBIS.2018.8471704
+L2  - http://dx.doi.org/10.1109/IWBIS.2018.8471704
+ER  - 
+
+
+

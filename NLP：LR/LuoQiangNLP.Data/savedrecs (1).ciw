@@ -1,0 +1,129 @@
+FN Clarivate Analytics Web of Science
+VR 1.0
+PT J
+AU Li, LQ
+   Wang, JB
+   Li, JC
+   Ma, QL
+   Wei, J
+AF Li, Luoqin
+   Wang, Jiabing
+   Li, Jichang
+   Ma, Qianli
+   Wei, Jia
+TI Relation Classification via Keyword-Attentive Sentence Mechanism and
+   Synthetic Stimulation Loss
+SO IEEE-ACM TRANSACTIONS ON AUDIO SPEECH AND LANGUAGE PROCESSING
+AB Previous studies have shown that attention mechanisms and shortest dependency paths have a positive effect on relation classification. In this paper, a keyword-attentive sentence mechanism is proposed to effectively combine the two methods. Furthermore, to effectively handle the imbalanced classification problem, this paper proposes a new loss function called the synthetic stimulation loss, which uses a modulating factor to allow the model to focus on hard-to-classify samples. The proposed two methods are integrated into a bidirectional gated recurrent unit (BiGRU). As a single model is not strong in noise immunity, this paper applies the mutual learning method to our model and forces the networks to teach each other. Therefore, we call the final model SSL-KAS-MuBiGRU. Experiments on the SemEval-2010 Task 8 data set and the TAC40 data set demonstrate that the keyword-attentive sentence mechanism and synthetic stimulation loss are useful for relation classification, and our model achieves state-of-the-art results.
+OI Wang, Jiabing/0000-0001-8188-2161
+SN 2329-9290
+PD SEP
+PY 2019
+VL 27
+IS 9
+BP 1392
+EP 1404
+DI 10.1109/TASLP.2019.2921726
+UT WOS:000472598900001
+ER
+
+PT J
+AU Seo, S
+   Kim, JK
+   Kim, SI
+   Kim, J
+   Kim, J
+AF Seo, Sungwon
+   Kim, Jong-Kook
+   Kim, Sung-Il
+   Kim, Jeewoo
+   Kim, Joongheon
+TI Semantic Hashtag Relation Classification Using Co-occurrence Word
+   Information
+SO WIRELESS PERSONAL COMMUNICATIONS
+AB Users using social networking service (SNS) may express their thoughts and feelings using simple hashtags. Hashtags are related to other hashtags and images that are used together in the user's other posts. Understanding the meaning of personal hashtags can be a way to learn latent semantic expressions of personal words. Existing methods for learning and analyzing semantics such as Latent Semantic Analysis, Latent Dirichlet Allocation and Word Embedding need large-scale corpus to construct an elaborate model. Large-scale corpus usually consists of words that a lot of people already use. Thus, existing methods are able to catch the latent meaning of words used in general. However, it is difficult for these methods to find personal meanings of words that are used by a particular person. Because the number of words that a person use is usually very small compared to a large-scale corpus. Another reason for the difficulty is that existing methods use occurrence frequency or co-occurrence probability. Therefore, the importance or the frequency or the probability of personalized meaning may disappear because of this large difference in the number of words. In this research we focused on the classification of semantic words using a user's hashtag data and the co-occurrence of these hashtags. The performance is evaluated and enhances previous work by 18% for Precision and more than 70% for Recall.
+SN 0929-6212
+EI 1572-834X
+PD AUG
+PY 2019
+VL 107
+IS 3
+SI SI
+BP 1355
+EP 1365
+DI 10.1007/s11277-018-5745-y
+UT WOS:000477606900002
+ER
+
+PT J
+AU Lee, J
+   Seo, S
+   Choi, YS
+AF Lee, Joohong
+   Seo, Sangwoo
+   Choi, Yong Suk
+TI Semantic Relation Classification via Bidirectional LSTM Networks with
+   Entity-Aware Attention Using Latent Entity Typing
+SO SYMMETRY-BASEL
+AB Classifying semantic relations between entity pairs in sentences is an important task in natural language processing (NLP). Most previous models applied to relation classification rely on high-level lexical and syntactic features obtained by NLP tools such as WordNet, the dependency parser, part-of-speech (POS) tagger, and named entity recognizers (NER). In addition, state-of-the-art neural models based on attention mechanisms do not fully utilize information related to the entity, which may be the most crucial feature for relation classification. To address these issues, we propose a novel end-to-end recurrent neural model that incorporates an entity-aware attention mechanism with a latent entity typing (LET) method. Our model not only effectively utilizes entities and their latent types as features, but also builds word representations by applying self-attention based on symmetrical similarity of a sentence itself. Moreover, the model is interpretable by visualizing applied attention mechanisms. Experimental results obtained with the SemEval-2010 Task 8 dataset, which is one of the most popular relation classification tasks, demonstrate that our model outperforms existing state-of-the-art models without any high-level features.
+OI Choi, Yong Suk/0000-0002-9042-0599; Lee, Joohong/0000-0001-6238-8301
+SN 2073-8994
+PD JUN
+PY 2019
+VL 11
+IS 6
+AR 785
+DI 10.3390/sym11060785
+UT WOS:000475703000060
+ER
+
+PT J
+AU Li, Z
+   Yang, JS
+   Gou, X
+   Qi, XR
+AF Li, Zhi
+   Yang, Jinshan
+   Gou, Xu
+   Qi, Xiaorong
+TI Recurrent neural networks with segment attention and entity description
+   for relation extraction from clinical texts
+SO ARTIFICIAL INTELLIGENCE IN MEDICINE
+AB At present, great progress has been achieved on the relation extraction for clinical texts, but we have noticed that the current models have great drawbacks when dealing with long sentences and multiple entities in a sentence. In this paper, we propose a novel neural network architecture based on Bidirectional Long Short-Term Memory Networks for relation classification. Firstly, we utilize a concat-attention mechanism for capturing the most important context words for relation extraction in a sentence. In addition, a segment attention mechanism is proposed to improve the performance of the model processing long sentences. Finally, a tensor-based entity description is used to overcome the performance degradation of the model when there are multiple entities in a sentence. The performance of the proposed model is evaluated on a part of the i2b2-2010 shared task clinical relation extraction dataset. The result indicates that our model can effectively overcome the above two problems and improve the F1-score by approximately 3% compared with baseline model.
+SN 0933-3657
+EI 1873-2860
+PD JUN
+PY 2019
+VL 97
+BP 9
+EP 18
+DI 10.1016/j.artmed.2019.04.003
+UT WOS:000474326600002
+PM 31202398
+ER
+
+PT J
+AU Dashdorj, Z
+   Song, M
+AF Dashdorj, Zolzaya
+   Song, Min
+TI An application of convolutional neural networks with salient features
+   for relation classification
+SO BMC BIOINFORMATICS
+CT 12th International Workshop on Data and Text Mining in Biomedical
+   Informatics (DTMBIO)
+CY OCT 22-26, 2018
+CL Turin, ITALY
+AB BackgroundDue to the advent of deep learning, the increasing number of studies in the biomedical domain has attracted much interest in feature extraction and classification tasks. In this research, we seek the best combination of feature set and hyperparameter setting of deep learning algorithms for relation classification. To this end, we incorporate an entity and relation extraction tool, PKDE4J to extract biomedical features (i.e., biomedical entities, relations) for the relation classification. We compared the chosen Convolutional Neural Networks (CNN) based classification model with the most widely used learning algorithms.ResultsOur CNN based classification model outperforms the most widely used supervised algorithms. We achieved a significant performance on binary classification with a weighted macro-average F1-score: 94.79% using pre-extracted relevant feature combinations. For multi-class classification, the weighted macro-average F1-score is estimated around 86.95%.ConclusionsOur results suggest that our proposed CNN based model using the not only single feature as the raw text of the sentences of biomedical literature, but also coupling with multiple and highlighted features extracted from the biomedical sentences could improve the classification performance significantly. We offer hyperparameter tuning and optimization approaches for our proposed model to obtain optimal hyperparameters of the models with the best performance.
+SN 1471-2105
+PD MAY 29
+PY 2019
+VL 20
+SU 10
+AR 244
+DI 10.1186/s12859-019-2808-3
+UT WOS:000469321900008
+PM 31138159
+ER
+
+EF

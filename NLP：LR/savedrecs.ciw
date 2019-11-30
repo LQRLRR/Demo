@@ -1,0 +1,25 @@
+FN Clarivate Analytics Web of Science
+VR 1.0
+PT J
+AU Zhou, Yujun
+   Xu, Jiaming
+   Cao, Jie
+   Xu, Bo
+   Li, Changliang
+   Xu, Bo
+TI Hybrid Attention Networks for Chinese Short Text Classification
+SO Computación y Sistemas	
+AB Abstract: To improve the classification performance for Chinese short text with automatic semantic feature selection, in this paper we propose the Hybrid Attention Networks (HANs) which combines the word- and character-level selective attentions. The model firstly applies RNN and CNN to extract the semantic features of texts. Then it captures class-related attentive representation from word- and character-level features. Finally, all of the features are concatenated and fed into the output layer for classification. Experimental results on 32-class and 5-class datasets show that, our model outperforms multiple baselines by combining not only the word- and character-level features of the texts, but also class-related semantic features by attentive mechanism.	
+SN 1405-5546
+PD 12
+PY 2017
+VL 21
+IS 4
+BP 759
+EP 769
+DI 10.13053/cys-21-4-2847
+UT SCIELO:S1405-55462017000400759
+OA gold
+ER
+
+EF

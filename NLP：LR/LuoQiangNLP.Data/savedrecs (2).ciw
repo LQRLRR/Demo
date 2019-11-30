@@ -1,0 +1,997 @@
+FN Clarivate Analytics Web of Science
+VR 1.0
+PT J
+AU Su, JS
+   Zhang, XW
+   Lin, Q
+   Qin, Y
+   Yao, JF
+   Liu, Y
+AF Su, Jinsong
+   Zhang, Xiangwen
+   Lin, Qian
+   Qin, Yue
+   Yao, Junfeng
+   Liu, Yang
+TI Exploiting reverse target-side contexts for neural machine translation
+   via asynchronous bidirectional decoding
+SO ARTIFICIAL INTELLIGENCE
+AB Based on a unified encoder-decoder framework with attentional mechanism, neural machine translation (NMT) models have attracted much attention and become the mainstream in the community of machine translation. Generally, the NMT decoders produce translation in a left-to-right way. As a result, only left-to-right target-side contexts from the generated translations are exploited, while the right-to-left target-side contexts are completely unexploited for translation. In this paper, we extend the conventional attentional encoder-decoder NMT framework by introducing a backward decoder, in order to explore asynchronous bidirectional decoding for NMT. In the first step after encoding, our backward decoder learns to generate the target-side hidden states in a right-to-left manner. Next, in each timestep of translation prediction, our forward decoder concurrently considers both the source-side and the reverse target-side hidden states via two attention models. Compared with previous models, the innovation in this architecture enables our model to fully exploit contexts from both source side and target side, which improve translation quality altogether. We conducted experiments on NIST Chinese-English, WMT English-German and Finnish-English translation tasks to investigate the effectiveness of our model. Experimental results show that (1) our improved RNN-based NMT model achieves significant improvements over the conventional RNNSearch by 1.44/-3.02, 1.11/-1.01, and 1.23/-1.27 average BLEU and TER points, respectively; and (2) our enhanced Transformer outperforms the standard Transformer by 1.56/-1.49, 1.76/-2.49, and 1.29/-1.33 average BLEU and TER points, respectively. (C). 2019 Elsevier B.V. All rights reserved.
+SN 0004-3702
+EI 1872-7921
+PD DEC
+PY 2019
+VL 277
+AR UNSP 103168
+DI 10.1016/j.artint.2019.103168
+UT WOS:000496338100003
+ER
+
+PT J
+AU Liu, XB
+   Wong, DE
+   Chao, LS
+   Liu, Y
+AF Liu, Xuebo
+   Wong, Derek E.
+   Chao, Lidia S.
+   Liu, Yang
+TI Latent Attribute Based Hierarchical Decoder for Neural Machine
+   Translation
+SO IEEE-ACM TRANSACTIONS ON AUDIO SPEECH AND LANGUAGE PROCESSING
+AB Neural machine translation (NMT) has achieved state-of-the-art performance in many translation tasks. However, because the computational cost increases with the size of the search space for predicting the target words, the translation quality of NMT is constrained by the limited vocabulary. To alleviate this problem, we propose a novel dynamic hierarchical decoder for NMT to utilize all of the target words in the training and decoding process. In the proposed model, a target word is represented by two latent attribute vectors rather than a word vector.& x00A0;The model is trained to dynamically put together those words that share similar linguistic attributes. The prediction of a target word is, therefore, turned into the prediction of attribute vectors, where the $\mathrm{softmax}$ functions are performed at the attribute level. This greatly reduces the model size and the decoding time.& x00A0;Our experimental results demonstrate that the proposed model significantly outperforms the NMT baselines in both Chinese-English and English-German translation tasks.
+OI Liu, Yang/0000-0002-3087-242X; Liu, Xuebo/0000-0001-8524-2006; Wong,
+   Derek F./0000-0002-5307-7322
+SN 2329-9290
+EI 2329-9304
+PD DEC
+PY 2019
+VL 27
+IS 12
+BP 2103
+EP 2112
+DI 10.1109/TASLP.2019.2941587
+UT WOS:000495027300002
+ER
+
+PT J
+AU Maimaiti, M
+   Liu, Y
+   Luan, HB
+   Sun, MS
+AF Maimaiti, Mieradilijiang
+   Liu, Yang
+   Luan, Huanbo
+   Sun, Maosong
+TI Multi-Round Transfer Learning for Low-Resource NMT Using Multiple
+   High-Resource Languages
+SO ACM TRANSACTIONS ON ASIAN AND LOW-RESOURCE LANGUAGE INFORMATION
+   PROCESSING
+AB Neural machine translation (NMT) has made remarkable progress in recent years, but the performance of NMT suffers from a data sparsity problem since large-scale parallel corpora are only readily available for high-resource languages (HRLs). In recent days, transfer learning (TL) has been used widely in low-resource languages (LRLs) machine translation, while TL is becoming one of the vital directions for addressing the data sparsity problem in low-resource NMT. As a solution, a transfer learning method in NMT is generally obtained via initializing the low-resource model (child) with the high-resource model (parent). However, leveraging the original TL to low-resource models is neither able to make full use of highly related multiple HRLs nor to receive different parameters from the same parents. In order to exploit multiple HRLs effectively, we present a language-independent and straightforward multi-round transfer learning (MRTL) approach to low-resource NMT. Besides, with the intention of reducing the differences between high-resource and low-resource languages at the character level, we introduce a unified transliteration method for various language families, which are both semantically and syntactically highly analogous with each other. Experiments on low-resource datasets show that our approaches are effective, significantly outperform the state-of-the-art methods, and yield improvements of up to 5.63 BLEU points.
+SN 2375-4699
+EI 2375-4702
+PD AUG
+PY 2019
+VL 18
+IS 4
+AR 38
+DI 10.1145/3314945
+UT WOS:000495430700005
+ER
+
+PT J
+AU Yin, YJ
+   Su, JS
+   Wen, HT
+   Zeng, JL
+   Liu, Y
+   Chen, YD
+AF Yin, Yongjing
+   Su, Jinsong
+   Wen, Huating
+   Zeng, Jiali
+   Liu, Yang
+   Chen, Yidong
+TI POS Tag-enhanced Coarse-to-fine Attention for Neural Machine Translation
+SO ACM TRANSACTIONS ON ASIAN AND LOW-RESOURCE LANGUAGE INFORMATION
+   PROCESSING
+AB Although neural machine translation (NMT) has certain capability to implicitly learn semantic information of sentences, we explore and show that Part-of-Speech (POS) tags can be explicitly incorporated into the attention mechanism of NMT effectively to yield further improvements. In this article, we propose an NMT model with tag-enhanced attention mechanism. In our model, NMT and POS tagging are jointly modeled via multi-task learning. Besides following common practice to enrich encoder annotations by introducing predicted source POS tags, we exploit predicted target POS tags to refine attention model in a coarse-to-fine manner. Specifically, we first implement a coarse attention operation solely on source annotations and target hidden state, where the produced context vector is applied to update target hidden state used for target POS tagging. Then, we perform a fine attention operation that extends the coarse one by further exploiting the predicted target POS tags. Finally, we facilitate word prediction by simultaneously utilizing the context vector from fine attention and the predicted target POS tags. Experimental results and further analyses on Chinese-English and Japanese-English translation tasks demonstrate the superiority of our proposed model over the conventional NMT models.
+SN 2375-4699
+EI 2375-4702
+PD AUG
+PY 2019
+VL 18
+IS 4
+AR 46
+DI 10.1145/3321124
+UT WOS:000495430700013
+ER
+
+PT J
+AU Liu, Y
+   Wang, K
+   Zong, CQ
+   Su, KY
+AF Liu, Yang
+   Wang, Kun
+   Zong, Chengqing
+   Su, Keh-Yih
+TI A unified framework and models for integrating translation memory into
+   phrase-based statistical machine translation (vol 54, pg 176, 2019)
+SO COMPUTER SPEECH AND LANGUAGE
+SN 0885-2308
+EI 1095-8363
+PD MAY
+PY 2019
+VL 55
+BP 216
+EP 216
+DI 10.1016/j.csl.2018.12.002
+UT WOS:000456592100012
+ER
+
+PT J
+AU Liu, Y
+   Wang, K
+   Zong, CQ
+   Su, KY
+AF Liu, Yang
+   Wang, Kun
+   Zong, Chengqing
+   Su, Keh-Yih
+TI A unified framework and models for integrating translation memory into
+   phrase-based statistical machine translation
+SO COMPUTER SPEECH AND LANGUAGE
+AB Since statistical machine translation (SMT) and translation memory (TM) complement each other in TM matched and unmatched regions, a unified framework for integrating TM into phrase-based SMT is proposed in this paper. Unlike previous two-stage pipeline approaches, which directly merge TM results into the input sentences and subsequently let the SMT only translates those unmatched regions, the proposed framework refers to the corresponding TM information associated with each phrase at the SMT decoding. Under this unified framework, several integrated models are proposed to incorporate different types of information extracted from TM to guide the SMT decoding. We thus let SMT implicitly and indirectly utilize global context with a local dependency model. Furthermore, the SMT phrase table is dynamically enhanced with TM phrase pairs when the TM database and the SMT training set are different.
+   On a Chinese-English TM database, our experiments show that the proposed Model-I significantly improves over both SMT and TM when the SMT training set is also adopted as the TM database and when the fuzzy match score is over 0.4 (overall 3.5 BLEU points improvement and 2.6 TER points reduction). In addition, the proposed Model-II is significantly better than the TM and the SMT systems when the SMT training set and the TM database are different. Furthermore, the proposed Model-III outperforms both the TM and the SMT systems even when the SMT training set and the TM database are from different domains. Additionally, the proposed Model-IV further achieves significant improvements with the help of Top-N TM sentence pairs. Lastly, all our models significantly outperform those state-of-the-art approaches under all test conditions. (C) 2018 Elsevier Ltd. All rights reserved.
+SN 0885-2308
+EI 1095-8363
+PD MAR
+PY 2019
+VL 54
+BP 176
+EP 206
+DI 10.1016/j.csl.2018.09.006
+UT WOS:000451046000012
+ER
+
+PT B
+AU Liu, XB
+   Wong, DF
+   Liu, Y
+   Chao, LDS
+   Xiao, T
+   Zhu, JB
+AF Liu, Xuebo
+   Wong, Derek F.
+   Liu, Yang
+   Chao, Lidia S.
+   Xiao, Tong
+   Zhu, Jingbo
+GP ACL
+BE Korhonen, A
+   Traum, D
+   Marquez, L
+TI Shared-Private Bilingual Word Embeddings for Neural Machine Translation
+SO 57TH ANNUAL MEETING OF THE ASSOCIATION FOR COMPUTATIONAL LINGUISTICS
+   (ACL 2019)
+CT 57th Annual Meeting of the Association-for-Computational-Linguistics
+   (ACL)
+CY JUL 28-AUG 02, 2019
+CL Florence, ITALY
+SP Assoc Computat Linguist, Apple, ASAPP, Bloomberg Engn, Bosch, Expedia, Facebook, Google, Microsoft, Salesforce, Amazon, Baidu, DeepMind, Grammarly, Huawei, IBM, Tencent, ByteDance, DiDi, Keiosk Analyt, Megagon Labs, Naver, PolyAi, Samsung, Bebelscape, BMW, Cisco, Duolingo, Ebay, G Res, SAP, Raytheon BBN Technologies, USC Viterbi, Sch Engn, Shannon Ai
+AB Word embedding is central to neural machine translation (NMT), which has attracted intensive research interest in recent years. In NMT, the source embedding plays the role of the entrance while the target embedding acts as the terminal. These layers occupy most of the model parameters for representation learning. Furthermore, they indirectly interface via a soft-attention mechanism, which makes them comparatively isolated. In this paper, we propose shared-private bilingual word embeddings, which give a closer relationship between the source and target embeddings, and which also reduce the number of model parameters. For similar source and target words, their embeddings tend to share a part of the features and they cooperatively learn these common representation units. Experiments on 5 language pairs belonging to 6 different language families and written in 5 different alphabets demonstrate that the proposed model provides a significant performance boost over the strong baselines with dramatically fewer model parameters.
+BN 978-1-950737-48-2
+PY 2019
+BP 3613
+EP 3622
+UT WOS:000493046106011
+ER
+
+PT B
+AU Yang, ZH
+   Cheng, Y
+   Liu, Y
+   Sun, MS
+AF Yang, Zonghan
+   Cheng, Yong
+   Liu, Yang
+   Sun, Maosong
+GP ACL
+BE Korhonen, A
+   Traum, D
+   Marquez, L
+TI Reducing Word Omission Errors in Neural Machine Translation: A
+   Contrastive Learning Approach
+SO 57TH ANNUAL MEETING OF THE ASSOCIATION FOR COMPUTATIONAL LINGUISTICS
+   (ACL 2019)
+CT 57th Annual Meeting of the Association-for-Computational-Linguistics
+   (ACL)
+CY JUL 28-AUG 02, 2019
+CL Florence, ITALY
+SP Assoc Computat Linguist, Apple, ASAPP, Bloomberg Engn, Bosch, Expedia, Facebook, Google, Microsoft, Salesforce, Amazon, Baidu, DeepMind, Grammarly, Huawei, IBM, Tencent, ByteDance, DiDi, Keiosk Analyt, Megagon Labs, Naver, PolyAi, Samsung, Bebelscape, BMW, Cisco, Duolingo, Ebay, G Res, SAP, Raytheon BBN Technologies, USC Viterbi, Sch Engn, Shannon Ai
+AB While neural machine translation (NMT) has achieved remarkable success, NMT systems are prone to make word omission errors. In this work, we propose a contrastive learning approach to reducing word omission errors in NMT. The basic idea is to enable the NMT model to assign a higher probability to a ground-truth translation and a lower probability to an erroneous translation, which is automatically constructed from the ground-truth translation by omitting words. We design different types of negative examples depending on the number of omitted words, word frequency, and part of speech. Experiments on Chinese-to-English, German-to-English, and Russian-to-English translation tasks show that our approach is effective in reducing word omission errors and achieves better translation performance than three baseline methods.
+BN 978-1-950737-48-2
+PY 2019
+BP 6191
+EP 6196
+UT WOS:000493046109022
+ER
+
+PT J
+AU Su, JS
+   Zhang, BA
+   Xiong, DY
+   Liu, Y
+   Zhang, M
+AF Su, Jinsong
+   Zhang, Biao
+   Xiong, Deyi
+   Liu, Yang
+   Zhang, Min
+TI Alignment-consistent recursive neural networks for bilingual phrase
+   embeddings
+SO KNOWLEDGE-BASED SYSTEMS
+AB Learning semantic representations of bilingual phrases is very important for statistical machine translation to overcome data sparsity and exploit semantic information. In this paper, we consider word alignments as a semantic bridge between the source and target phrases, and propose two neural networks based on the conventional recursive autocoder, which exploit word alignments to generate alignment-consistent bilingual phrase structures: One is Alignment Enhanced Recursive Autoencoder that incorporates a word-alignment-related error into the final objective function; The other is Alignment Guided Recursive Neural Network which treats word alignments as direct signals to guide phrase structure constructions. Then, we further establish the semantic correspondences between the source and target nodes of the generated bilingual phrase structures via word alignments. By jointly minimizing recursive autoencoder reconstruction errors, structural alignment consistency errors and cross-lingual reconstruction errors, our model not only generates alignment-consistent phrase structures, but also captures different levels of semantic correspondences within bilingual phrases. Experiments on the NIST Chinese-English translation task show that our model achieves significant improvements over the baseline.
+SN 0950-7051
+EI 1872-7409
+PD SEP 15
+PY 2018
+VL 156
+BP 1
+EP 11
+DI 10.1016/j.knosys.2018.05.003
+UT WOS:000438005600001
+ER
+
+PT J
+AU Su, JS
+   Zeng, JL
+   Xiong, DY
+   Liu, Y
+   Wang, MX
+   Xie, J
+AF Su, Jinsong
+   Zeng, Jiali
+   Xiong, Deyi
+   Liu, Yang
+   Wang, Mingxuan
+   Xie, Jun
+TI A Hierarchy-to-Sequence Attentional Neural Machine Translation Model
+SO IEEE-ACM TRANSACTIONS ON AUDIO SPEECH AND LANGUAGE PROCESSING
+AB Although sequence-to-sequence attentional neural machine translation (NMT) has achieved great progress recently, it is confronted with two challenges: learning optimal model parameters for long parallel sentences and well exploiting different scopes of contexts. In this paper, partially inspired by the idea of segmenting a long sentence into short clauses, each of which can be easily translated by NMT, we propose a hierarchy-to-sequence attentional NMT model to handle these two challenges. Our encoder takes the segmented clause sequence as input and explores a hierarchical neural network structure tomodel words, clauses, and sentences at different levels, particularly with two layers of recurrent neural networks modeling semantic compositionality at the word and clause level. Correspondingly, the decoder sequentially translates segmented clauses and simultaneously applies two types of attention models to capture contexts of interclause and intraclause for translation prediction. In this way, we can not only improve parameter learning, but also well explore different scopes of contexts for translation. Experimental results on Chinese-English and English-German translation demonstrate the superiorities of the proposed model over the conventional NMT model.
+OI Liu, Yang/0000-0002-3087-242X
+SN 2329-9290
+EI 2329-9304
+PD MAR
+PY 2018
+VL 26
+IS 3
+BP 623
+EP 632
+DI 10.1109/TASLP.2018.2789721
+UT WOS:000423528700013
+ER
+
+PT B
+AU Cheng, Y
+   Tu, ZP
+   Meng, FD
+   Zhai, JJ
+   Liu, Y
+AF Cheng, Yong
+   Tu, Zhaopeng
+   Meng, Fandong
+   Zhai, Junjie
+   Liu, Yang
+BE Gurevych, I
+   Miyao, Y
+TI Towards Robust Neural Machine Translation
+SO PROCEEDINGS OF THE 56TH ANNUAL MEETING OF THE ASSOCIATION FOR
+   COMPUTATIONAL LINGUISTICS (ACL), VOL 1
+CT 56th Annual Meeting of the Association-for-Computational-Linguistics
+   (ACL)
+CY JUL 15-20, 2018
+CL Melbourne, AUSTRALIA
+SP Assoc Computat Linguist, Google, ByteDance, Samsung Res, Apple, Facebook, Amazon, Baidu, Recruit Inst Technol, Tencent, IBM Res AI, Microsoft, Naver, Line, CVTE, Digital Hlth crc, Nuance, Huawei, Elsevier, Duolingo, ISI NLP, Australian Govt, Dept Def, Sci & Technol
+AB Small perturbations in the input can severely distort intermediate representations and thus impact translation quality of neural machine translation (NMT) models. In this paper, we propose to improve the robustness of NMT models with adversarial stability training. The basic idea is to make both the encoder and decoder in NMT models robust against input perturbations by enabling them to behave similarly for the original input and its perturbed counterpart. Experimental results on Chinese-English, English-German and English-French translation tasks show that our approaches can not only achieve significant improvements over strong NMT systems but also improve the robustness of NMT models.
+BN 978-1-948087-32-2
+PY 2018
+BP 1756
+EP 1766
+UT WOS:000493904300163
+ER
+
+PT B
+AU Chen, Y
+   Liu, Y
+   Li, VOK
+AF Chen, Yun
+   Liu, Yang
+   Li, Victor O. K.
+GP AAAI
+TI Zero-Resource Neural Machine Translation with Multi-Agent Communication
+   Game
+SO THIRTY-SECOND AAAI CONFERENCE ON ARTIFICIAL INTELLIGENCE / THIRTIETH
+   INNOVATIVE APPLICATIONS OF ARTIFICIAL INTELLIGENCE CONFERENCE / EIGHTH
+   AAAI SYMPOSIUM ON EDUCATIONAL ADVANCES IN ARTIFICIAL INTELLIGENCE
+CT 32nd AAAI Conference on Artificial Intelligence / 30th Innovative
+   Applications of Artificial Intelligence Conference / 8th AAAI Symposium
+   on Educational Advances in Artificial Intelligence
+CY FEB 02-07, 2018
+CL New Orleans, LA
+SP AAAI
+AB While end-to-end neural machine translation (NMT) has achieved notable success in the past years in translating a handful of resource-rich language pairs, it still suffers from the data scarcity problem for low-resource language pairs and domains. To tackle this problem, we propose an interactive multimodal framework for zero-resource neural machine translation. Instead of being passively exposed to large amounts of parallel corpora, our learners (implemented as encoder-decoder architecture) engage in cooperative image description games, and thus develop their own image captioning or neural machine translation model front the need to communicate in order to succeed at the game. Experimental results on the IAPR-TC12 and Multi30K datasets show that the proposed learning mechanism significantly improves over the state-of-the-art methods.
+BN 978-1-57735-800-8
+PY 2018
+BP 5086
+EP 5093
+UT WOS:000485488905022
+ER
+
+PT B
+AU Zhang, XW
+   Su, JS
+   Qin, Y
+   Liu, Y
+   Ji, RR
+   Wang, HJ
+AF Zhang, Xiangwen
+   Su, Jinsong
+   Qin, Yue
+   Liu, Yang
+   Ji, Rongrong
+   Wang, Hongji
+GP AAAI
+TI Asynchronous Bidirectional Decoding for Neural Machine Translation
+SO THIRTY-SECOND AAAI CONFERENCE ON ARTIFICIAL INTELLIGENCE / THIRTIETH
+   INNOVATIVE APPLICATIONS OF ARTIFICIAL INTELLIGENCE CONFERENCE / EIGHTH
+   AAAI SYMPOSIUM ON EDUCATIONAL ADVANCES IN ARTIFICIAL INTELLIGENCE
+CT 32nd AAAI Conference on Artificial Intelligence / 30th Innovative
+   Applications of Artificial Intelligence Conference / 8th AAAI Symposium
+   on Educational Advances in Artificial Intelligence
+CY FEB 02-07, 2018
+CL New Orleans, LA
+SP AAAI
+AB The dominant neural machine translation (NMT) models apply unified attentional encoder-decoder neural networks for translation. Traditionally, the NMT decoders adopt recurrent neural networks (RNNs) to perform translation in a left-to-right manner, leaving the target-side contexts generated from right to left unexploded during translation. In this paper, we equip the conventional attentional encoder-decoder NMT framework with a backward decoder, in order to explore bidirectional decoding for NMT. Attending to the hidden state sequence produced by the encoder, our backward decoder first learns to generate the target-side hidden state sequence from right to left. Then, the forward decoder performs translation in the forward direction, while in each translation prediction timestep, it simultaneously applies two attention models to consider the source-side and reverse target-side hidden states, respectively. With this new architecture, our model is able to fully exploit source- and target-side contexts to improve translation quality altogether. Experimental results on NISI Chinese-English and WMT English-German translation tasks demonstrate that our model achieves substantial improvements over the conventional NMT by 3.14 and 1.38 BLEU points, respectively. The source code of this work can he obtained from https://github.com/DeepLearnXMLU/ABD-NMT.
+BN 978-1-57735-800-8
+PY 2018
+BP 5698
+EP 5705
+UT WOS:000485488905098
+ER
+
+PT B
+AU Chen, CY
+   Su, T
+   Meng, GZ
+   Xing, ZC
+   Liu, Y
+AF Chen, Chunyang
+   Su, Ting
+   Meng, Guozhu
+   Xing, Zhenchang
+   Liu, Yang
+GP IEEE
+TI From UI Design Image to GUI Skeleton: A Neural Machine Translator to
+   Bootstrap Mobile GUI Implementation
+SO PROCEEDINGS 2018 IEEE/ACM 40TH INTERNATIONAL CONFERENCE ON SOFTWARE
+   ENGINEERING (ICSE)
+CT 40th ACM/IEEE International Conference on Software Engineering (ICSE)
+CY MAY 27-JUN 03, 2018
+CL Gothenburg, SWEDEN
+SP IEEE, Assoc Comp Machinery, IEEE Comp Soc, Microsoft Res
+AB A GUI skeleton is the starting point for implementing a UI design image. To obtain a GUI skeleton from a UI design image, developers have to visually understand UI elements and their spatial layout in the image, and then translate this understanding into proper GUI components and their compositions. Automating this visual understanding and translation would be beneficial for bootstraping mobile GUI implementation, but it is a challenging task due to the diversity of UI designs and the complexity of GUI skeletons to generate. Existing tools are rigid as they depend on heuristically-designed visual understanding and GUI generation rules. In this paper, we present a neural machine translator that combines recent advances in computer vision and machine translation for translating a UI design image into a GUI skeleton. Our translator learns to extract visual features in UI images, encode these features' spatial layouts, and generate GUI skeletons in a unified neural network framework, without requiring manual rule development. For training our translator, we develop an automated GUI exploration method to automatically collect large-scale UI data from real-world applications. We carry out extensive experiments to evaluate the accuracy, generality and usefulness of our approach.
+RI Liu, Yang/D-2306-2013
+OI Liu, Yang/0000-0001-7300-9215; Chen, Chunyang/0000-0003-2011-9618
+BN 978-1-4503-5638-1
+PY 2018
+BP 665
+EP 676
+UT WOS:000454843300081
+ER
+
+PT J
+AU Shen, SQ
+   Liu, Y
+   Sun, MS
+AF Shen, Shi-Qi
+   Liu, Yang
+   Sun, Mao-Song
+TI Optimizing Non-Decomposable Evaluation Metrics for Neural Machine
+   Translation
+SO JOURNAL OF COMPUTER SCIENCE AND TECHNOLOGY
+AB While optimizing model parameters with respect to evaluation metrics has recently proven to benefit end to-end neural machine translation (NMT), the evaluation metrics used in the training are restricted to be defined at the sentence level to facilitate online learning algorithms. This is undesirable because the final evaluation metrics used in the testing phase are usually non-decomposable (i.e., they are defined at the corpus level and cannot be expressed as the sum of sentence-level metrics). To minimize the discrepancy between the training and the testing, we propose to extend the minimum risk training (MRT) algorithm to take non-decomposable corpus-level evaluation metrics into consideration while still keeping the advantages of online training. This can be done by calculating corpus-level evaluation metrics on a subset of training data at each step in online training. Experiments on Chinese-English and English-French translation show that our approach improves the correlation between training and testing and significantly outperforms the MRT algorithm using decomposable evaluation metrics.
+SN 1000-9000
+EI 1860-4749
+PD JUL
+PY 2017
+VL 32
+IS 4
+BP 796
+EP 804
+DI 10.1007/s11390-017-1760-9
+UT WOS:000405580700012
+ER
+
+PT B
+AU Ding, YZ
+   Liu, Y
+   Luan, HB
+   Sun, MS
+AF Ding, Yanzhuo
+   Liu, Yang
+   Luan, Huanbo
+   Sun, Maosong
+BE Barzilay, R
+   Kan, MY
+TI Visualizing and Understanding Neural Machine Translation
+SO PROCEEDINGS OF THE 55TH ANNUAL MEETING OF THE ASSOCIATION FOR
+   COMPUTATIONAL LINGUISTICS (ACL 2017), VOL 1
+CT 55th Annual Meeting of the Association-for-Computational-Linguistics
+   (ACL)
+CY JUL 30-AUG 04, 2017
+CL Vancouver, CANADA
+SP Alibaba Grp, Amazon, Apple, Baidu, Bloomberg, Facebook, Google, Samsung, Tencent, eBay, Elsevier, IBM Res, KPMG, Maluuba, Microsoft, Naver Line, NEC, Recruit Inst Technol, SAP, Adobe, Bosch, CVTE, Duolingo, Huawei, Nuance, Oracle, Sogou, Grammarly, Toutiao, Yandex
+AB While neural machine translation (NMT) has made remarkable progress in recent years, it is hard to interpret its internal workings due to the continuous representations and non-linearity of neural networks. In this work, we propose to use layer-wise relevance propagation (LRP) to compute the contribution of each contextual word to arbitrary hidden states in the attention-based encoder-decoder framework. We show that visualization with LRP helps to interpret the internal workings of NMT and analyze translation errors.
+BN 978-1-945626-75-3
+PY 2017
+BP 1150
+EP 1159
+DI 10.18653/v1/P17-1106
+UT WOS:000493984800106
+ER
+
+PT B
+AU Zhang, JC
+   Liu, Y
+   Luan, HB
+   Xu, JF
+   Sun, MS
+AF Zhang, Jiacheng
+   Liu, Yang
+   Luan, Huanbo
+   Xu, Jingfang
+   Sun, Maosong
+BE Barzilay, R
+   Kan, MY
+TI Prior Knowledge Integration for Neural Machine Translation using
+   Posterior Regularization
+SO PROCEEDINGS OF THE 55TH ANNUAL MEETING OF THE ASSOCIATION FOR
+   COMPUTATIONAL LINGUISTICS (ACL 2017), VOL 1
+CT 55th Annual Meeting of the Association-for-Computational-Linguistics
+   (ACL)
+CY JUL 30-AUG 04, 2017
+CL Vancouver, CANADA
+SP Alibaba Grp, Amazon, Apple, Baidu, Bloomberg, Facebook, Google, Samsung, Tencent, eBay, Elsevier, IBM Res, KPMG, Maluuba, Microsoft, Naver Line, NEC, Recruit Inst Technol, SAP, Adobe, Bosch, CVTE, Duolingo, Huawei, Nuance, Oracle, Sogou, Grammarly, Toutiao, Yandex
+AB Although neural machine translation has made significant progress recently, how to integrate multiple overlapping, arbitrary prior knowledge sources remains a challenge. In this work, we propose to use posterior regularization to provide a general framework for integrating prior knowledge into neural machine translation. We represent prior knowledge sources as features in a log-linear model, which guides the learning process of the neural translation model. Experiments on Chinese-English translation show that our approach leads to significant improvements.
+BN 978-1-945626-75-3
+PY 2017
+BP 1514
+EP 1523
+DI 10.18653/v1/P17-1139
+UT WOS:000493984800139
+ER
+
+PT B
+AU Chen, Y
+   Liu, Y
+   Cheng, Y
+   Li, VOK
+AF Chen, Yun
+   Liu, Yang
+   Cheng, Yong
+   Li, Victor O. K.
+BE Barzilay, R
+   Kan, MY
+TI A Teacher-Student Framework for Zero-Resource Neural Machine Translation
+SO PROCEEDINGS OF THE 55TH ANNUAL MEETING OF THE ASSOCIATION FOR
+   COMPUTATIONAL LINGUISTICS (ACL 2017), VOL 1
+CT 55th Annual Meeting of the Association-for-Computational-Linguistics
+   (ACL)
+CY JUL 30-AUG 04, 2017
+CL Vancouver, CANADA
+SP Alibaba Grp, Amazon, Apple, Baidu, Bloomberg, Facebook, Google, Samsung, Tencent, eBay, Elsevier, IBM Res, KPMG, Maluuba, Microsoft, Naver Line, NEC, Recruit Inst Technol, SAP, Adobe, Bosch, CVTE, Duolingo, Huawei, Nuance, Oracle, Sogou, Grammarly, Toutiao, Yandex
+AB While end-to-end neural machine translation (NMT) has made remarkable progress recently, it still suffers from the data scarcity problem for low-resource language pairs and domains. In this paper, we propose a method for zero-resource NMT by assuming that parallel sentences have close probabilities of generating a sentence in a third language. Based on the assumption, our method is able to train a source-to-target NMT model ("student") without parallel corpora available guided by an existing pivot-to-target NMT model ("teacher") on a source-pivot parallel corpus. Experimental results show that the proposed method significantly improves over a baseline pivot-based model by +3.0 BLEU points across various language pairs.
+BN 978-1-945626-75-3
+PY 2017
+BP 1925
+EP 1935
+DI 10.18653/v1/P17-1176
+UT WOS:000493984800176
+ER
+
+PT B
+AU Tu, ZP
+   Liu, Y
+   Shang, LF
+   Liu, XH
+   Li, H
+AF Tu, Zhaopeng
+   Liu, Yang
+   Shang, Lifeng
+   Liu, Xiaohua
+   Li, Hang
+GP AAAI
+TI Neural Machine Translation with Reconstruction
+SO THIRTY-FIRST AAAI CONFERENCE ON ARTIFICIAL INTELLIGENCE
+CT 31st AAAI Conference on Artificial Intelligence
+CY FEB 04-09, 2017
+CL San Francisco, CA
+SP Assoc Advancement Artificial Intelligence
+AB Although end-to-end Neural Machine Translation (NMT) has achieved remarkable progress in the past two years, it suffers from a major drawback: translations generated by NMT systems often lack of adequacy. It has been widely observed that NMT tends to repeatedly translate some source words while mistakenly ignoring other words. To alleviate this problem, we propose a novel encoder-decoder-reconstructor framework for NMT. The reconstructor, incorporated into the NMT model, manages to reconstruct the input source sentence from the hidden layer of the output target sentence, to ensure that the information in the source side is transformed to the target side as much as possible. Experiments show that the proposed framework significantly improves the adequacy of NMT output and achieves superior translation result over state-of-the-art NMT and statistical MT systems.
+PY 2017
+BP 3097
+EP 3103
+UT WOS:000485630703021
+ER
+
+PT B
+AU Su, JS
+   Tan, ZX
+   Xiong, DY
+   Ji, RR
+   Shi, XD
+   Liu, Y
+AF Su, Jinsong
+   Tan, Zhixing
+   Xiong, Deyi
+   Ji, Rongrong
+   Shi, Xiaodong
+   Liu, Yang
+GP AAAI
+TI Lattice-Based Recurrent Neural Network Encoders for Neural Machine
+   Translation
+SO THIRTY-FIRST AAAI CONFERENCE ON ARTIFICIAL INTELLIGENCE
+CT 31st AAAI Conference on Artificial Intelligence
+CY FEB 04-09, 2017
+CL San Francisco, CA
+SP Assoc Advancement Artificial Intelligence
+AB Neural machine translation (NMT) heavily relies on word level modelling to learn semantic representations of input sentences. However, for languages without natural word delimiters (e.g., Chinese) where input sentences have to be tokenized first, conventional NMT is confronted with two issues: 1) it is difficult to find an optimal tokenization granularity for source sentence modelling, and 2) errors in 1-best tokenizations may propagate to the encoder of NMT. To handle these issues, we propose word-lattice based Recurrent Neural Network (RNN) encoders for NMT, which generalize the standard RNN to word lattice topology. The proposed encoders take as input a word lattice that compactly encodes multiple tokenizations, and learn to generate new hidden states from arbitrarily many inputs and hidden states in preceding time steps. As such, the word-lattice based encoders not only alleviate the negative impact of tokenization errors but also are more expressive and flexible to embed input sentences. Experiment results on Chinese-English translation demonstrate the superiorities of the proposed encoders over the conventional encoder.
+PY 2017
+BP 3302
+EP 3308
+UT WOS:000485630703049
+ER
+
+PT J
+AU Zhang, M
+   Liu, Y
+   Luan, HB
+   Sun, MS
+AF Zhang, Meng
+   Liu, Yang
+   Luan, Huanbo
+   Sun, Maosong
+TI Listwise Ranking Functions for Statistical Machine Translation
+SO IEEE-ACM TRANSACTIONS ON AUDIO SPEECH AND LANGUAGE PROCESSING
+AB Decision rules play an important role in the tuning and decoding steps of statistical machine translation. The traditional decision rule selects the candidate with the greatest potential from a candidate space by examining each candidate individually. However, viewing each candidate as independent imposes a serious limitation on the translation task. We instead view the problem from a ranking perspective that naturally allows the consideration of an entire list of candidates as a whole through the adoption of a listwise ranking function. Our shift from a pointwise to a listwise perspective proves to be a simple yet powerful extension to current modeling that allows arbitrary pairwise functions to be incorporated as features, whose weights can be estimated jointly with traditional ones. We further demonstrate that our formulation encompasses the minimum Bayes risk (MBR) approach, another decision rule that considers restricted listwise information, as a special case. Experiments show that our approach consistently outperforms the baseline and MBR methods across the considered test sets.
+SN 2329-9290
+PD AUG
+PY 2016
+VL 24
+IS 8
+BP 1464
+EP 1472
+DI 10.1109/TASLP.2016.2560527
+UT WOS:000377456100010
+ER
+
+PT B
+AU Tu, ZP
+   Lu, ZD
+   Liu, Y
+   Liu, XH
+   Li, H
+AF Tu, Zhaopeng
+   Lu, Zhengdong
+   Liu, Yang
+   Liu, Xiaohua
+   Li, Hang
+BE Erk, K
+   Smith, NA
+TI Modeling Coverage for Neural Machine Translation
+SO PROCEEDINGS OF THE 54TH ANNUAL MEETING OF THE ASSOCIATION FOR
+   COMPUTATIONAL LINGUISTICS, VOL 1
+CT 54th Annual Meeting of the Association-for-Computational-Linguistics
+   (ACL)
+CY AUG 07-12, 2016
+CL Berlin, GERMANY
+SP Assoc Computat Linguist, Google, Baidu, Amazon Com, Bloomberg, Facebook, Microsoft Res, eBay, Elsevier, IBM Res, MaluubA, Huawei Technologies, Nuance, Grammarly, VoiceBox Technologies, Yandex, Textkernel, Zalando SE
+AB Attention mechanism has enhanced state-of-the-art Neural Machine Translation (NMT) by jointly learning to align and translate. It tends to ignore past alignment information, however, which often leads to over-translation and under-translation. To address this problem, we propose coverage-based NMT in this paper. We maintain a coverage vector to keep track of the attention history. The coverage vector is fed to the attention model to help adjust future attention, which lets NMT system to consider more about untranslated source words. Experiments show that the proposed approach significantly improves both translation quality and alignment quality over standard attention-based NMT.(1)
+BN 978-1-945626-00-5
+PY 2016
+BP 76
+EP 85
+UT WOS:000493806800008
+ER
+
+PT B
+AU Shen, SQ
+   Cheng, Y
+   He, ZJ
+   He, W
+   Wu, H
+   Sun, MS
+   Liu, Y
+AF Shen, Shiqi
+   Cheng, Yong
+   He, Zhongjun
+   He, Wei
+   Wu, Hua
+   Sun, Maosong
+   Liu, Yang
+BE Erk, K
+   Smith, NA
+TI Minimum Risk Training for Neural Machine Translation
+SO PROCEEDINGS OF THE 54TH ANNUAL MEETING OF THE ASSOCIATION FOR
+   COMPUTATIONAL LINGUISTICS, VOL 1
+CT 54th Annual Meeting of the Association-for-Computational-Linguistics
+   (ACL)
+CY AUG 07-12, 2016
+CL Berlin, GERMANY
+SP Assoc Computat Linguist, Google, Baidu, Amazon Com, Bloomberg, Facebook, Microsoft Res, eBay, Elsevier, IBM Res, MaluubA, Huawei Technologies, Nuance, Grammarly, VoiceBox Technologies, Yandex, Textkernel, Zalando SE
+AB We propose minimum risk training for end-to-end neural machine translation. Unlike conventional maximum likelihood estimation, minimum risk training is capable of optimizing model parameters directly with respect to arbitrary evaluation metrics, which are not necessarily differentiable. Experiments show that our approach achieves significant improvements over maximum likelihood estimation on a state-of-the-art neural machine translation system across various languages pairs. Transparent to architectures, our approach can be applied to more neural networks and potentially benefit more NLP tasks.
+BN 978-1-945626-00-5
+PY 2016
+BP 1683
+EP 1692
+UT WOS:000493806800159
+ER
+
+PT B
+AU Cheng, Y
+   Xu, W
+   He, ZJ
+   He, W
+   Wu, H
+   Sun, MS
+   Liu, Y
+AF Cheng, Yong
+   Xu, Wei
+   He, Zhongjun
+   He, Wei
+   Wu, Hua
+   Sun, Maosong
+   Liu, Yang
+BE Erk, K
+   Smith, NA
+TI Semi-Supervised Learning for Neural Machine Translation
+SO PROCEEDINGS OF THE 54TH ANNUAL MEETING OF THE ASSOCIATION FOR
+   COMPUTATIONAL LINGUISTICS, VOL 1
+CT 54th Annual Meeting of the Association-for-Computational-Linguistics
+   (ACL)
+CY AUG 07-12, 2016
+CL Berlin, GERMANY
+SP Assoc Computat Linguist, Google, Baidu, Amazon Com, Bloomberg, Facebook, Microsoft Res, eBay, Elsevier, IBM Res, MaluubA, Huawei Technologies, Nuance, Grammarly, VoiceBox Technologies, Yandex, Textkernel, Zalando SE
+AB While end-to-end neural machine translation (NMT) has made remarkable progress recently, NMT systems only rely on parallel corpora for parameter estimation. Since parallel corpora are usually limited in quantity, quality, and coverage, especially for low-resource languages, it is appealing to exploit monolingual corpora to improve NMT. We propose a semi-supervised approach for training NMT models on the concatenation of labeled (parallel corpora) and unlabeled (monolingual corpora) data. The central idea is to reconstruct the monolingual corpora using an autoencoder, in which the source-to-target and target-to-source translation models serve as the encoder and decoder, respectively. Our approach can not only exploit the monolingual corpora of the target language, but also of the source language. Experiments on the Chinese-English dataset show that our approach achieves significant improvements over state-of-the-art SMT and NMT systems.
+BN 978-1-945626-00-5
+PY 2016
+BP 1965
+EP 1974
+UT WOS:000493806800185
+ER
+
+PT B
+AU Zhang, M
+   Liu, Y
+   Luan, HB
+   Sun, MS
+   Izuha, T
+   Hao, J
+AF Zhang, Meng
+   Liu, Yang
+   Luan, Huanbo
+   Sun, Maosong
+   Izuha, Tatsuya
+   Hao, Jie
+GP AAAI
+TI Building Earth Mover's Distance on Bilingual Word Embeddings for Machine
+   Translation
+SO THIRTIETH AAAI CONFERENCE ON ARTIFICIAL INTELLIGENCE
+CT 30th Association-for-the-Advancement-of-Artificial-Intelligence (AAAI)
+   Conference on Artificial Intelligence
+CY FEB 12-17, 2016
+CL Phoenix, AZ
+SP Assoc Advancement Artificial Intelligence
+AB Following their monolingual counterparts, bilingual word embeddings are also on the rise. As a major application task, word translation has been relying on the nearest neighbor to connect embeddings cross-lingually. However, the nearest neighbor strategy suffers from its inherently local nature and fails to cope with variations in realistic bilingual word embeddings. Furthermore, it lacks a mechanism to deal with many-to-many mappings that often show up across languages. We introduce Earth Mover's Distance to this task by providing a natural formulation that translates words in a holistic fashion, addressing the limitations of the nearest neighbor. We further extend the formulation to a new task of identifying parallel sentences, which is useful for statistical machine translation systems, thereby expanding the application realm of bilingual word embeddings. We show encouraging performance on both tasks.
+PY 2016
+BP 2870
+EP 2876
+UT WOS:000485474202127
+ER
+
+PT B
+AU Hadiwinoto, C
+   Liu, Y
+   Ng, HT
+AF Hadiwinoto, Christian
+   Liu, Yang
+   Ng, Hwee Tou
+GP AAAI
+TI To Swap or Not to Swap? Exploiting Dependency Word Pairs for Reordering
+   in Statistical Machine Translation
+SO THIRTIETH AAAI CONFERENCE ON ARTIFICIAL INTELLIGENCE
+CT 30th Association-for-the-Advancement-of-Artificial-Intelligence (AAAI)
+   Conference on Artificial Intelligence
+CY FEB 12-17, 2016
+CL Phoenix, AZ
+SP Assoc Advancement Artificial Intelligence
+AB Reordering poses a major challenge in machine translation (MT) between two languages with significant differences in word order. In this paper, we present a novel reordering approach utilizing sparse features based on dependency word pairs. Each instance of these features captures whether two words, which are related by a dependency link in the source sentence dependency parse tree, follow the same order or are swapped in the translation output. Experiments on Chinese-to-English translation show a statistically significant improvement of 1.21 BLEU point using our approach, compared to a state-of-the-art statistical MT system that incorporates prior reordering approaches.
+PY 2016
+BP 2943
+EP 2949
+UT WOS:000485474202137
+ER
+
+PT S
+AU Chen, MH
+   Chang, BB
+   Liu, Y
+AF Chen, Miaohong
+   Chang, Baobao
+   Liu, Yang
+BE Sun, M
+   Liu, Z
+   Zhang, M
+   Liu, Y
+TI A Neural Network Based Translation Constrained Reranking Model for
+   Chinese Dependency Parsing
+SO CHINESE COMPUTATIONAL LINGUISTICS AND NATURAL LANGUAGE PROCESSING BASED
+   ON NATURALLY ANNOTATED BIG DATA (CCL 2015)
+SE Lecture Notes in Artificial Intelligence
+CT 14th China National Conference on Computational Linguistics (CCL) / 3rd
+   International Symposium on Natural Language Processing Based on
+   Naturally Annotated Big Data (NLP-NABD)
+CY NOV 13-14, 2015
+CL Guangdong Univ Foreign Studies, Guangzhou, PEOPLES R CHINA
+HO Guangdong Univ Foreign Studies
+AB Bilingual dependency parsing aims to improve parsing performance with the help of bilingual information. While previous work have shown improvements on either or both sides, most of them mainly focus on designing complicated features and rely on golden translations during training and testing. In this paper, we propose a simple yet effective translation constrained reranking model to improve Chinese dependency parsing. The reranking model is trained using a max-margin neural network without any manually designed features. Instead of using golden translations for training and testing, we relax the restrictions and use sentences generated by a machine translation system, which dramatically extends the scope of our model. Experiments on the translated portion of the Chinese Treebank show that our method outperforms the state-of-the-art monolingual Graph/Transition-based parsers by a large margin (UAS).
+SN 0302-9743
+BN 978-3-319-25816-4; 978-3-319-25815-7
+PY 2015
+VL 9427
+BP 240
+EP 249
+DI 10.1007/978-3-319-25816-4_20
+UT WOS:000367710600020
+ER
+
+PT B
+AU Su, JS
+   Xiong, DY
+   Liu, Y
+   Han, XP
+   Lin, HY
+   Yao, JF
+   Zhang, M
+AF Su, Jinsong
+   Xiong, Deyi
+   Liu, Yang
+   Han, Xianpei
+   Lin, Hongyu
+   Yao, Junfeng
+   Zhang, Min
+BE Zong, C
+   Strube, M
+TI A Context-Aware Topic Model for Statistical Machine Translation
+SO PROCEEDINGS OF THE 53RD ANNUAL MEETING OF THE ASSOCIATION FOR
+   COMPUTATIONAL LINGUISTICS AND THE 7TH INTERNATIONAL JOINT CONFERENCE ON
+   NATURAL LANGUAGE PROCESSING, VOL 1
+CT 53rd Annual Meeting of the Association-for-Computational-Linguistics
+   (ACS) / 7th International Joint Conference on Natural Language
+   Processing of the Asian-Federation-of-Natural-Language-Processing
+   (IJCNLP)
+CY JUL 26-31, 2015
+CL Beijing, PEOPLES R CHINA
+SP Assoc Computat Linguist, Asian Federat Nat Language Proc, CreditEase, Baidu, Tencent, Alibaba Grp, Samsung, Microsoft, Google, Facebook, SinoVoice, Huawei, Nuance, Amazon, Voicebox Technologies, Baobab, Sogou
+AB Lexical selection is crucial for statistical machine translation. Previous studies separately exploit sentence-level contexts and document-level topics for lexical selection, neglecting their correlations. In this paper, we propose a context-aware topic model for lexical selection, which not only models local contexts and global topics but also captures their correlations. The model uses target-side translations as hidden variables to connect document topics and source-side local contextual words. In order to learn hidden variables and distributions from data, we introduce a Gibbs sampling algorithm for statistical estimation and inference. A new translation probability based on distributions learned by the model is integrated into a translation system for lexical selection. Experiment results on NIST Chinese-English test sets demonstrate that 1) our model significantly outperforms previous lexical selection methods and 2) modeling correlations between local words and global topics can further improve translation quality.
+BN 978-1-941643-72-3
+PY 2015
+BP 229
+EP 238
+UT WOS:000493808900023
+ER
+
+PT B
+AU Dong, MP
+   Liu, Y
+   Luan, HB
+   Sun, MS
+   Izuha, T
+   Zhang, DK
+AF Dong, Meiping
+   Liu, Yang
+   Luan, Huanbo
+   Sun, Maosong
+   Izuha, Tatsuya
+   Zhang, Dakun
+BE Yang, Q
+   Wooldridge, M
+TI Iterative Learning of Parallel Lexicons and Phrases from Non-Parallel
+   Corpora
+SO PROCEEDINGS OF THE TWENTY-FOURTH INTERNATIONAL JOINT CONFERENCE ON
+   ARTIFICIAL INTELLIGENCE (IJCAI)
+CT 1st International Workshop on Social Influence Analysis / 24th
+   International Joint Conference on Artificial Intelligence (IJCAI)
+CY JUL 25-31, 2015
+CL Buenos Aires, ARGENTINA
+AB While parallel corpora are an indispensable resource for data-driven multilingual natural language processing tasks such as machine translation, they are limited in quantity, quality and coverage. As a result, learning translation models from non-parallel corpora has become increasingly important nowadays, especially for low-resource languages. In this work, we propose a joint model for iteratively learning parallel lexicons and phrases from non-parallel corpora. The model is trained using a Viterbi EM algorithm that alternates between constructing parallel phrases using lexicons and updating lexicons based on the constructed parallel phrases. Experiments on Chinese-English datasets show that our approach learns better parallel lexicons and phrases and improves translation performance significantly.
+BN 978-1-57735-738-4
+PY 2015
+BP 1250
+EP 1256
+UT WOS:000442637801047
+ER
+
+PT J
+AU Su, JS
+   Liu, Y
+   Liu, Q
+   Dong, HL
+AF Su Jinsong
+   Liu Yang
+   Liu Qun
+   Dong Huailin
+TI Graph-based Lexicalized Reordering Models for Statistical Machine
+   Translation
+SO CHINA COMMUNICATIONS
+AB Lexicalized reordering models are very important components of phrase-based translation systems. By examining the reordering relationships between adjacent phrases, conventional methods learn these models from the word aligned bilingual corpus, while ignoring the effect of the number of adjacent bilingual phrases. In this paper, we propose a method to take the number of adjacent phrases into account for better estimation of reordering models. Instead of just checking whether there is one phrase adjacent to a given phrase, our method firstly uses a compact structure named reordering graph to represent all phrase segmentations of a parallel sentence, then the effect of the adjacent phrase number can be quantified in a forward-backward fashion, and finally incorporated into the estimation of reordering models. Experimental results on the NIST Chinese-English and WMT French-Spanish data sets show that our approach significantly outperforms the baseline method.
+SN 1673-5447
+PD MAY
+PY 2014
+VL 11
+IS 5
+BP 71
+EP 82
+DI 10.1109/CC.2014.6880462
+UT WOS:000338087300008
+ER
+
+PT J
+AU Su, JS
+   Shi, XD
+   Huang, YZ
+   Liu, Y
+   Wu, QQ
+   Chen, YD
+   Dong, HL
+AF Su, Jin-song
+   Shi, Xiao-dong
+   Huang, Yan-zhou
+   Liu, Yang
+   Wu, Qing-qiang
+   Chen, Yi-dong
+   Dong, Huai-lin
+TI Topic-aware pivot language approach for statisticalmachine translation
+SO JOURNAL OF ZHEJIANG UNIVERSITY-SCIENCE C-COMPUTERS & ELECTRONICS
+AB The pivot language approach for statistical machine translation (SMT) is a good method to break the resource bottleneck for certain language pairs. However, in the implementation of conventional approaches, pivot-side context information is far from fully utilized, resulting in erroneous estimations of translation probabilities. In this study, we propose two topic-aware pivot language approaches to use different levels of pivot-side context. The first method takes advantage of document-level context by assuming that the bridged phrase pairs should be similar in the document-level topic distributions. The second method focuses on the effect of local context. Central to this approach are that the phrase sense can be reflected by local context in the form of probabilistic topics, and that bridged phrase pairs should be compatible in the latent sense distributions. Then, we build an interpolated model bringing the above methods together to further enhance the system performance. Experimental results on French-Spanish and French-German translations using English as the pivot language demonstrate the effectiveness of topic-based context in pivot-based SMT.
+SN 1869-1951
+EI 1869-196X
+PD APR
+PY 2014
+VL 15
+IS 4
+BP 241
+EP 253
+DI 10.1631/jzus.C1300208
+UT WOS:000334522500001
+ER
+
+PT S
+AU Liu, Y
+   Zhang, JJ
+   Hao, J
+   Zhang, DK
+AF Liu, Yang
+   Zhang, Jiajun
+   Hao, Jie
+   Zhang, Dakun
+BE Shi, X
+   Chen, Y
+TI Making Language Model as Small as Possible in Statistical Machine
+   Translation
+SO MACHINE TRANSLATION, CWMT 2014
+SE Communications in Computer and Information Science
+CT 10th China Workshop on Machine Translation (CWMT)
+CY NOV 04-06, 2014
+CL Macau, PEOPLES R CHINA
+SP Fundo Desenvolvimento Ciencias Tecnologia, Univ Macau, Chinese Informat Proc Soc China, Univ Macau, Fac Sci & Technol
+AB As one of the key components, n-gram language model is most frequently used in statistical machine translation. Typically, higher order of the language model leads to better translation performance. However, higher order of the n-gram language model requires much more monolingual training data to avoid data sparseness. Furthermore, the model size increases exponentially when the n-gram order becomes higher and higher. In this paper, we investigate the language model pruning techniques that aim at making the model size as small as possible while keeping the translation quality. According to our investigation, we further propose to replace the higher order n-grams with a low-order cluster-based language model. The extensive experiments show that our method is very effective.
+SN 1865-0929
+BN 978-3-662-45701-6; 978-3-662-45700-9
+PY 2014
+VL 493
+BP 1
+EP 12
+UT WOS:000357580100001
+ER
+
+PT J
+AU Pennell, DL
+   Liu, Y
+AF Pennell, Deana L.
+   Liu, Yang
+TI Normalization of informal text
+SO COMPUTER SPEECH AND LANGUAGE
+AB This paper describes a noisy-channel approach for the normalization of informal text, such as that found in emails, chat rooms, and SMS messages. In particular, we introduce two character-level methods for the abbreviation modeling aspect of the noisy channel model: a statistical classifier using language-based features to decide whether a character is likely to be removed from a word, and a character-level machine translation model. A two-phase approach is used; in the first stage the possible candidates are generated using the selected abbreviation model and in the second stage we choose the best candidate by decoding using a language model. Overall we find that this approach works well and is on par with current research in the field. Published by Elsevier Ltd.
+SN 0885-2308
+EI 1095-8363
+PD JAN
+PY 2014
+VL 28
+IS 1
+BP 256
+EP 277
+DI 10.1016/j.csl.2013.07.001
+UT WOS:000326257500017
+ER
+
+PT B
+AU Li, C
+   Liu, Y
+AF Li, Chen
+   Liu, Yang
+GP International Speech Communications Association
+TI Normalization of Text Messages Using Character- and Phone-based Machine
+   Translation Approaches
+SO 13TH ANNUAL CONFERENCE OF THE INTERNATIONAL SPEECH COMMUNICATION
+   ASSOCIATION 2012 (INTERSPEECH 2012), VOLS 1-3
+CT 13th Annual Conference of the
+   International-Speech-Communication-Association
+CY SEP 09-13, 2012
+CL Portland, OR
+SP Int Speech Commun Assoc
+AB There are many abbreviation and non-standard words in SMS and Twitter messages. They are problematic for text-to-speech (TTS) or language processing techniques for these data. A character-based machine translation (MT) approach was previously used for normalization of non-standard words. In this paper, we propose a two-stage translation method to leverage phonetic information, where non-standard words are first translated to possible pronunciations, which are then translated to standard words. We further combine it with the single-step character-based translation module. Our experiments show that our proposed method significantly outperforms previous results in both n-best coverage and 1-best accuracy.
+BN 978-1-62276-759-5
+PY 2012
+BP 2327
+EP 2330
+UT WOS:000320827201137
+ER
+
+PT J
+AU Liu, Y
+   Liu, Q
+   Lin, SX
+AF Liu, Yang
+   Liu, Qun
+   Lin, Shouxun
+TI Discriminative Word Alignment by Linear Modeling
+SO COMPUTATIONAL LINGUISTICS
+AB Word alignment plays an important role in many NLP tasks as it indicates the correspondence between words in a parallel text. Although widely used to align large bilingual corpora, generative models are hard to extend to incorporate arbitrary useful linguistic information. This article presents a discriminative framework for word alignment based on a linear model. Within this framework, all knowledge sources are treated as feature functions, which depend on a source language sentence, a target language sentence, and the alignment between them. We describe a number of features that could produce symmetric alignments. Our model is easy to extend and can be optimized with respect to evaluation metrics directly. The model achieves state-of-the-art alignment quality on three word alignment shared tasks for five language pairs with varying divergence and richness of resources. We further show that our approach improves translation performance for various statistical machine translation systems.
+SN 0891-2017
+PD SEP
+PY 2010
+VL 36
+IS 3
+BP 303
+EP 339
+DI 10.1162/coli_a_00001
+UT WOS:000281744900002
+ER
+
+PT B
+AU Liu, Y
+   Liu, Q
+   Lin, SX
+AF Liu, Yang
+   Liu, Qun
+   Lin, Shouxun
+GP COLING
+TI Tree-to-String Alignment Template for Statistical Machine Translation
+SO COLING/ACL 2006, VOLS 1 AND 2, PROCEEDINGS OF THE CONFERENCE
+CT 21st International Conference on Computational Linguistics/44th Annual
+   Meeting of the Association for Computational Linguistics
+CY JUL 17-21, 2006
+CL Sydney, AUSTRALIA
+SP Assoc Computat Linguist
+AB We present a novel translation model based on tree-to-string alignment template (TAT) which describes the alignment between a source parse tree and a target string. A TAT is capable of generating both terminals and non-terminals and performing reordering at both low and high levels. The model is linguistically syntax-based because TATs are extracted automatically from word-aligned, source side parsed parallel texts. To translate a source sentence, we first employ a parser to produce a source parse tree and then apply TATs to transform the tree into a target string. Our experiments show that the TAT-based model significantly outperforms Pharaoh, a state-of-the-art decoder for phrase-based models.
+BN 978-1-932432-65-7
+PY 2006
+BP 609
+EP 616
+UT WOS:000274500200077
+ER
+
+EF
